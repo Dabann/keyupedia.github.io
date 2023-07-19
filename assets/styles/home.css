@@ -1,0 +1,33 @@
+:root{
+    --c-primary: #f0a500;
+    --c-secondary: #cf7500;
+    --c-dark: #000000;
+    --c-light: #f4f4f4;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--c-dark);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: var(--c-primary);
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
